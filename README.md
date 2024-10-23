@@ -5,10 +5,8 @@
 - [Overview](#overview)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Installation](#installation)
 - [Running the Project](#running-the-project)
 - [API Endpoints](#api-endpoints)
-- [Future Improvements](#future-improvements)
 
 ## Overview
 This project is a backend system for a YouTube-like application that supports user registration, login, and logout functionalities. As development progresses, more features like video uploading, comments, likes, and subscriptions are being added.
@@ -116,9 +114,3 @@ This project is a backend system for a YouTube-like application that supports us
 |--------|-----------------------------------|-----------------------------------|-----------|
 | GET    |`/api/v1/healthcheck`              | Get Health Status                 | Yes       |
 
-## Future Improvements
-- **Video Recommendations:** Recommend videos based on user preferences.
-- **Analytics:** Track views and other engagement metrics.
-- **Notifications:** Real-time notifications for new comments, likes, and subscriptions.
-- **Microservices Architecture:** Plan to scale the application by breaking features into microservices.
-- **CI/CD:** Set up automated testing and deployment pipelines.
