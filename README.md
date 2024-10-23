@@ -34,47 +34,7 @@ This project is a backend system for a YouTube-like application that supports us
 - **File Storage:** (e.g., cloudinary, local storage, etc.)
 - **Containerization:** (for future features) Docker (for RabbitMQ and other services) 
 
-## Installation
 
-1. **Clone the repository:**
-    ```bash
-    git clone https://github.com/Ishaan1103/Backend-youtube
-    cd Backend-youtube
-    ```
-
-2. **Install dependencies:**
-    ```bash
-    npm install
-    ```
-
-3. **Set up environment variables:**
-
-    Create a `.env` file in the root of your project and add the following:
-    ```bash
-    PORT = 3000 //(depend upon u i used 3000)
-    URI= Create One mongoDb server and use its uri here
-    CORS_ORIGIN = *
-    ACCESS_TOKEN_SECERET = Your ACCESS_TOKEN_SECERET 
-    ACCESS_TOKEN_EXPIRY = Your ACCESS_TOKEN_EXPIRY
-    REFRESH_TOKEN_SECERET = Your REFRESH_TOKEN_SECERET
-    REFRESH_TOKEN_EXPIRY = Your REFRESH_TOKEN_EXPIRY //use numbers like 10d === 10days
-    CLOUD_NAME= Your-Cloud-name
-    API_KEY= Your_Api_Key-from-Cloudinary 
-    API_SECERET= Your_Api_Seceret-from-Cloudinary
-    ```
-   
-4. **Start the server:**
-    ```bash
-    npm run dev
-    ```
-
-## Running the Project
-
-Once you have completed the setup, you can run the project using:
-```bash
-npm start
-```
-This will start the server, and the application will be available on `http://localhost:3000`.
 
 ## API Endpoints
 
